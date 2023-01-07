@@ -5,25 +5,25 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-// int m, n;
+int m, n;
 
-// Console.Write($"Введите размерность m: ");
-// int.TryParse(Console.ReadLine()!, out m);
-// Console.Write($"Введите размерность n: ");
-// int.TryParse(Console.ReadLine()!, out n);
+Console.Write($"Введите размерность m: ");
+int.TryParse(Console.ReadLine()!, out m);
+Console.Write($"Введите размерность n: ");
+int.TryParse(Console.ReadLine()!, out n);
 
 
-// double[,] array = new double[m, n];
+double[,] array = new double[m, n];
 
-// for (int i = 0; i < m; i++)
-// {
-//     for (int j = 0; j < n; j++)
-//     {
-//         array[i, j] = Math.Round(new Random().NextDouble() * 10, 1);
-//         Console.Write($"{array[i, j]} ");
-//     }
-//     Console.WriteLine();
-// }
+for (int i = 0; i < m; i++)
+{
+    for (int j = 0; j < n; j++)
+    {
+        array[i, j] = Math.Round(new Random().NextDouble() * 10, 1);
+        Console.Write($"{array[i, j]} ");
+    }
+    Console.WriteLine();
+}
 
 // Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, 
 // и возвращает значение этого элемента или же указание, что такого элемента нет.
@@ -33,67 +33,67 @@
 // 8 4 2 4
 // 17 -> такого числа в массиве нет
 
-// Console.WriteLine("Номер строки искомого элемента: ");
-// int posInRow = int.Parse(Console.ReadLine()!);
-// Console.WriteLine("Номер столбца искомого элемента: ");
-// int posInColumn = int.Parse(Console.ReadLine()!);
-// Console.WriteLine();
+Console.WriteLine("Номер строки искомого элемента: ");
+int posInRow = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Номер столбца искомого элемента: ");
+int posInColumn = int.Parse(Console.ReadLine()!);
+Console.WriteLine();
 
-// int[,] GetMatrix(int rows, int columns, int minNumber, int maxNumber)
-// {
-//     int[,] matrix = new int[rows, columns];
+int[,] GetMatrix(int rows, int columns, int minNumber, int maxNumber)
+{
+    int[,] matrix = new int[rows, columns];
 
-//     var rnd = new Random();
+    var rnd = new Random();
 
-//     for (int i = 0; i < matrix.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < matrix.GetLength(1); j++)
-//         {
-//             matrix[i, j] = rnd.Next(minNumber, maxNumber);
-//         }
-//     }
-//     return matrix;
-// }
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            matrix[i, j] = rnd.Next(minNumber, maxNumber);
+        }
+    }
+    return matrix;
+}
 
-// void PrintMatrix(int[,] mtrx)
-// {
-//     for (int i = 0; i < mtrx.GetLength(0); i++) //m
-//     {
-//         for (int j = 0; j < mtrx.GetLength(1); j++) //n
-//         {
-//             if (j == 0) Console.Write(" | ");
-//             Console.Write($"{mtrx[i, j],4} | ");
-//         }
-//         Console.WriteLine();
-//     }
-// }
+void PrintMatrix(int[,] mtrx)
+{
+    for (int i = 0; i < mtrx.GetLength(0); i++) //m
+    {
+        for (int j = 0; j < mtrx.GetLength(1); j++) //n
+        {
+            if (j == 0) Console.Write(" | ");
+            Console.Write($"{mtrx[i, j],4} | ");
+        }
+        Console.WriteLine();
+    }
+}
 
-// int FindElementInMatrix(int[,] mtrx, int posInRow, int posInColumn)
-// {
-//     int element = 0;
+int FindElementInMatrix(int[,] mtrx, int posInRow, int posInColumn)
+{
+    int element = 0;
 
-//     for (int i = 0; i < mtrx.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < mtrx.GetLength(1); j++)
-//         {
-//             if (i == posInRow - 1 && j == posInColumn - 1) element = mtrx[i, j];
-//         }
-//     }
-//     return element;
-// }
+    for (int i = 0; i < mtrx.GetLength(0); i++)
+    {
+        for (int j = 0; j < mtrx.GetLength(1); j++)
+        {
+            if (i == posInRow - 1 && j == posInColumn - 1) element = mtrx[i, j];
+        }
+    }
+    return element;
+}
 
-// int[,] array = GetMatrix(4, 3, 0, 100);
-// PrintMatrix(array);
-// Console.WriteLine();
+int[,] array = GetMatrix(4, 3, 0, 100);
+PrintMatrix(array);
+Console.WriteLine();
 
-// if (FindElementInMatrix(array, posInRow, posInColumn) > 0)
-// {
-//     Console.WriteLine("Значение выбранного элемента: " + FindElementInMatrix(array, posInRow, posInColumn));
-// }
-// else
-// {
-//     Console.WriteLine("Такого элемента в этом массиве нет!");
-// }
+if (FindElementInMatrix(array, posInRow, posInColumn) > 0)
+{
+    Console.WriteLine("Значение выбранного элемента: " + FindElementInMatrix(array, posInRow, posInColumn));
+}
+else
+{
+    Console.WriteLine("Такого элемента в этом массиве нет!");
+}
 
 // Задача 52. Задайте двумерный массив из целых чисел. 
 // Найдите среднее арифметическое элементов в каждом столбце.
