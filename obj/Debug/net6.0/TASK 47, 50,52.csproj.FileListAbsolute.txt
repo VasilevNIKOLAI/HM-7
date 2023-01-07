@@ -1,0 +1,15 @@
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\bin\Debug\net6.0\TASK 47, 50,52.exe
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\bin\Debug\net6.0\TASK 47, 50,52.deps.json
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\bin\Debug\net6.0\TASK 47, 50,52.runtimeconfig.json
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\bin\Debug\net6.0\TASK 47, 50,52.dll
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\bin\Debug\net6.0\TASK 47, 50,52.pdb
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\obj\Debug\net6.0\TASK 47, 50,52.csproj.AssemblyReference.cache
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\obj\Debug\net6.0\TASK 47, 50,52.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\obj\Debug\net6.0\TASK 47, 50,52.AssemblyInfoInputs.cache
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\obj\Debug\net6.0\TASK 47, 50,52.AssemblyInfo.cs
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\obj\Debug\net6.0\TASK 47, 50,52.csproj.CoreCompileInputs.cache
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\obj\Debug\net6.0\TASK 47, 50,52.dll
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\obj\Debug\net6.0\refint\TASK 47, 50,52.dll
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\obj\Debug\net6.0\TASK 47, 50,52.pdb
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\obj\Debug\net6.0\TASK 47, 50,52.genruntimeconfig.cache
+C:\Users\79116\OneDrive\Рабочий стол\TASK 47, 50,52\obj\Debug\net6.0\ref\TASK 47, 50,52.dll
